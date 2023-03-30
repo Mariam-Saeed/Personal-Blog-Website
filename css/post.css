@@ -43,9 +43,8 @@ figcaption {
 }
 
 .sub-heading {
-  font-size: 2.2rem;
   color: #091e3e;
-  font-family: var(--nunito);
+  font: bold 2.2rem var(--nunito);
   margin-bottom: 0.5em;
 }
 
@@ -53,10 +52,6 @@ figcaption {
   font: 400 1.6rem var(--rubik);
   margin-bottom: 1.4em;
   color: #6b6a75;
-}
-
-.post-p:first-of-type {
-  font-style: italic;
 }
 
 .post-list {
@@ -85,7 +80,6 @@ blockquote {
   margin: 4em auto 0;
   width: 50%;
   min-height: 10em;
-  font: 1.2rem var(--rubik);
   color: #6b6a75;
   display: flex;
   flex-wrap: wrap;
@@ -95,6 +89,8 @@ blockquote {
 }
 
 .author-bio {
+  font-size: 1.2rem;
+  font-family: var(--rubik);
   text-align: center;
 }
 
@@ -135,6 +131,8 @@ blockquote {
 .author-company,
 .author-name,
 .author-title {
+  font-size: 1.2rem;
+  font-family: var(--rubik);
   text-transform: capitalize;
 }
 
